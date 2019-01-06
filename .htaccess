@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Restricted area"
-AuthUserFile /srv/http/homoeotest/.htpasswd
-Require valid-user
