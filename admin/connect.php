@@ -1,5 +1,5 @@
 <?php
-require('environment.php');
+require('../environment.php');
 $c = new mysqli($dbhost,$dbuser,$dbpassword);
 try{
 $c->select_db($db);
